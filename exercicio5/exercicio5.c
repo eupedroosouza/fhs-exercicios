@@ -16,7 +16,7 @@ int main()
     priceWithDescont = price - (price * ( 10.0f / 100.0f));
     
     // Mostra o novo preço
-    printf("O preço %f com desconto de 10 porcento é %f", price, priceWithDescont);
+    printf("O preço %f com desconto de 10 porcento é %f.\n", price, priceWithDescont);
     
     return 1;
 }

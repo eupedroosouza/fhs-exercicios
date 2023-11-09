@@ -19,7 +19,7 @@ int main()
     r = n1 / n2;
     
     // Mostra o resultado 
-    printf("A divisão do número %f pelo número %f é %f", n1, n2, r);
+    printf("A divisão do número %f pelo número %f é %f.\n", n1, n2, r);
 
     return 1;
 }

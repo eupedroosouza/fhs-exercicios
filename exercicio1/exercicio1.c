@@ -18,7 +18,7 @@ int main()
     r = n1 - n2;
     
     // Mostra o resultado 
-    printf("A subtração do número %d pelo número %d é %d", n1, n2, r);
+    printf("A subtração do número %d pelo número %d é %d.\n", n1, n2, r);
     
     return 1;
 }
