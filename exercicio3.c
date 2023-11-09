@@ -1,3 +1,4 @@
+// Fundamentos da programação de computadores: algoritmos, Pascal, C/C++ e Java. 3. ed.
 #include <stdio.h>
 
 int main()
