@@ -21,7 +21,7 @@ int main() {
 
     // Verifica se a escada é maior que altura da parede (Condicionamento)
     if (alturaDaParede > alturaDaEscada) {
-        printf("A sua escada deve ser maior que altura que você quer pegrar o quadro.");
+        printf("A sua escada deve ser maior que altura que você quer pegrar o quadro.\n");
         return 1;
     }
 
@@ -30,7 +30,7 @@ int main() {
     distanciaDaParede = sqrt(distanciaDaParede);
 
     // Mostra a distância da escada em relação a parede (Saída)
-    printf("A escada deve estar %f de distância da parede.", distanciaDaParede);
+    printf("A escada deve estar %f de distância da parede.\n", distanciaDaParede);
 
     return 1;
 }
