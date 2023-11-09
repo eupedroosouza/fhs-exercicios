@@ -1,5 +1,6 @@
 // Fundamentos da programação de computadores: algoritmos, Pascal, C/C++ e Java. 2. ed.
 #include <stdio.h>
+#include <math.h>
 
 int main() {
 
@@ -17,10 +18,7 @@ int main() {
     scanf("%f", &alturaUsuario);
 
     // Calcura os degraus necessários (Processamento)
-    degrausNecessarios = ((int) alturaUsuario) / ((int) alturaDegrau);
-    if ((((int) alturaDegrau) % ((int) alturaUsuario)) > 0) {
-        degrausNecessarios += 1;
-    }
+    degrausNecessarios = ceil(alturaUsuario / alturaDegrau);
 
     // Mostra quantos degraus o usuário precisa subir (Saída)
     printf("Você precisa subir %d degraus para chegar até %.2f de altura.\n", degrausNecessarios, alturaUsuario);

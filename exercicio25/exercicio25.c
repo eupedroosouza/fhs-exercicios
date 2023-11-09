@@ -1,6 +1,7 @@
 // Fundamentos da programação de computadores: algoritmos, Pascal, C/C++ e Java. 2. ed.
 
 #include <stdio.h>
+#include <math.h>
 
 int main() {
 
@@ -18,10 +19,7 @@ int main() {
     scanf("%f", &precoConvite);
 
     // Calcula a quantidade de convites para que o custo seja satisfeito (Processamento)
-    quantidadeDeConvites = ((int) custo) / ((int) precoConvite);
-    if (((int) custo) % ((int) precoConvite) > 0) {
-        quantidadeDeConvites += 1;
-    }
+    quantidadeDeConvites = ceil(custo / precoConvite);
 
     // Mostra o resultado (Saída)
     printf("O espetáculo precisa vender %d convites para que se pague.\n", quantidadeDeConvites);
